@@ -1,0 +1,83 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container h1 {
+    text-align: center; 
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.container h2 {
+    color: #333;
+}
+
+.director-info {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    
+}
+
+.director-info h2 {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.director-info p {
+    color: #fff;
+    margin: 5px 0;
+}
+
+.director-info .films-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #555;
+    text: #fff; 
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px; 
+    margin-right: 10px;
+}
+
+.top-films-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.top-films-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top-films-container p {
+    color: #333;
+    display: inline-block;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.top-films-container .top-films-list-item {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
